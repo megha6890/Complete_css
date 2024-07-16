@@ -1,0 +1,26 @@
+body{
+    font-size: 2rem;
+    }
+
+main{
+    border: 5px dotted red;
+    /* main apne parent(body) ka 50% le rha h */
+    /* width: 50%; */
+     /* width: 100vw; (vw=view width==100% of vw liya h) */
+     width: 25%;
+}
+
+header{
+font-size: 4rem;
+}
+
+
+
+p{
+font-size: 3em;
+}
+section{
+    border: 5px dashed green;
+    width: 200vw;
+    height: 200vh;
+}

@@ -1,0 +1,62 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* global variable */
+
+:root{
+    --primary-text-color:#00974e;
+    --secondary-text-color:#444;
+    --card-bg-color:white;
+    --background-color:#eee;
+}
+
+.dark{
+    --primary-text-color:#ffffff;
+    --secondary-text-color:#ddd;
+    --card-bg-color:#333;
+    --background-color:#111;
+}
+
+body{
+    background-color: white;
+}
+
+h1{
+    text-align: center;
+   
+    color: var(--primary-text-color);
+}
+.container{
+    min-height: 100vh;
+    padding: 40px;
+    background-color: var(--background-color);
+}
+
+.box{
+    border-radius: 20px;
+    padding: 20px;
+    background-color:var(--card-bg-color);
+    margin-block: 20px;
+    
+}
+h2{
+    margin-bottom: 20px;
+    color:var(--primary-text-color)
+}
+
+p{
+    color: var(--secondary-text-color);
+}
+
+/* @media screen and (max-width:800px){
+    .container{
+        --my-var:pink;
+        background-color:#ffe;
+    }
+    .box{
+        background-color: var(--card-bg-color);
+    }
+} */

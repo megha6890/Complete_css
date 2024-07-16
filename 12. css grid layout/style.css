@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    border: 2px solid red;
+    display: grid;
+    row-gap: 10px;
+    column-gap: 5px;
+    height: 600px;
+    /* grid-template-columns: 30% 70%; */
+    /* cahro column barabar */
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    /* grid-template-columns:repeat(4,1fr); */
+    /* grid-template-columns:repeat(4,100px); */
+    /* pahla column 200px and second bachi hui jagah puri le lega */
+   
+    /* grid-template-rows: 100px 80px auto; */
+    /* jinki height define nhi ki h unko yh value mil jayegi */
+    /* grid-auto-rows: 150px; */
+    /* justify-content: center; */
+    /* align-content: center; */
+    /* align-items: center; */
+
+    /* INSTEAD OF THIS*/
+    /* grid-template-columns:200px 200px 200px; */
+
+    /* WE WILL USE THIS */
+    /* hdr=>header
+    sbr=>side bar
+    ftr=>footer */
+    grid-template-areas:"hdr hdr hdr hdr"
+                         "sbr main main main"
+                          "sbr main main main"
+                          "ftr ftr ftr ftr" ;
+}
+.box{
+    border: 2px solid rgb(0, 241, 52);
+    padding: 12px;
+}
+#box-1{
+    background-color: pink;
+    /* justify-self: end;
+    align-self: flex-end; */
+    /* grid-column-start:1 ;
+    grid-column-end: 3; */
+    /* counts only column pillers */
+    /* grid-column: 1/3; */
+    /* count boxes */
+    /* grid-column: 1/span 3; */
+    /* start to end tk */
+    /* grid-column: 1/-1;  */
+    /* grid-row: 1/span 3; */
+
+    /* ek sath grid row grid coloumn ko define */
+    grid-area: hdr;
+}
+#box-2{
+    grid-area: sbr;
+}
+#box-3{
+    grid-area: main;
+}
+#box-4{
+    grid-area: ftr;
+}
+

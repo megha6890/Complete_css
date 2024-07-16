@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Lexend", sans-serif;
+}
+.signup-header h1{
+    color: white;
+    text-align: center;
+}
+
+.bg-img{
+    background-image: url("https://videohive.img.customer.envatousercontent.com/files/14ec8d61-daf7-4fc5-9381-5bdb41072912/inline_image_preview.jpg?auto=compress%2Cformat&fit=crop&crop=top&max-h=8000&max-w=590&s=3e1e48ef799a5bf24deaea5a1c8613bf");
+
+    min-height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.inner-box{
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+    top: 50%;
+    
+    backdrop-filter: blur(10px);
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px  #41a7ec;;
+}
+
+.signup-body p{
+padding: 5px;
+}
+.signup-body p label{
+    font-weight: bold;
+}
+
+.signup-body p input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 50px;
+    border: 1px solid  rgb(255, 255, 255);;
+    font-size: 1rem;
+    margin-top: 4px;
+    opacity: 0.5;
+
+}
+a{
+    text-decoration: none;
+}
+
+
+.signup-body p input[type="submit"]{
+    
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+.signup-body p input[type="submit"]:hover{
+    background-color: rgb(154, 154, 203);
+   
+}
+
+.signup-body p input::placeholder{
+    color: rgb(0, 0, 0);
+}
+.middle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+
+.signup-footer{
+    align-items: center;
+   font-weight: lighter;
+    font-size: 14px;
+}
+
+
+.text-white{
+    color: white;
+}
+.left-section{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.register{
+    align-items: center;
+    text-align: center;
+}
+
+
+
+
+

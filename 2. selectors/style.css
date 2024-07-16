@@ -1,0 +1,35 @@
+/* for globally change/universsal change  we use "*" */
+/* *{
+font-family: fantasy;
+} */
+
+h1{
+    color: chartreuse;
+}
+/* nested selector */
+/* p:hover{
+    font-size: 30px;
+} */
+#first>p{
+    color: coral;
+}
+/* priority */
+/* id>class>element -> ICE*/
+/* id is unique */
+#first{
+    color: red;
+    
+}
+/* group selector */
+#second, #third{
+    color: blue;
+}
+/* we can use classes for multiple tags */
+.purple{
+    color: purple;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.highlight{
+    background-color:aquamarine
+}
